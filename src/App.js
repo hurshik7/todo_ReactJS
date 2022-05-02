@@ -13,7 +13,8 @@ class App extends Component {
       menus: [
         {id: 1, title: 'HTML', desc: 'Hypertext Markup Language'},
         {id: 2, title: 'CSS', desc: 'CSS is for design'},
-        {id: 3, title: 'Javascript', desc: 'Javascript is for interactive'}
+        {id: 3, title: 'Javascript', desc: 'Javascript is for interactive'},
+        {id: 4, title: 'React', desc:'React is awesome!'}
       ]
     };
   }
@@ -26,7 +27,8 @@ class App extends Component {
           desc={this.state.subject.desc}
         ></Myheader>
         <Mynav 
-          data={this.state.menus}>
+          data={this.state.menus}
+        >
         </Mynav>
         <Myarticle 
           title="HTML" 
