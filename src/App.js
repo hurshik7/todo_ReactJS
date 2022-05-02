@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Myheader from "./Myheader";
 import Mynav from "./Mynav";
+import Myarticle from "./Myarticle";
 
 class App extends Component {
   render() {
